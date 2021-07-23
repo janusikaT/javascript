@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>num</title>
+  </head>
+  <body>
+    <p id ="text"></p>
+    <script>
+      var numbers = [4,1,8,3,9,12];
+      numbers.sort((a, b) => { return a - b });
+
+      document.getElementById("text").innerHTML = numbers.toString();
+
+    </script>
+  </body>
+</html>

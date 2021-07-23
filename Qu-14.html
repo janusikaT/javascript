@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>fruits</title>
+  </head>
+  <body>
+    <p id ="demo"></p>
+    <p id ="demo1"></p>
+    <p id ="demo2"></p>
+    <p id ="demo3"></p>
+    <script>
+      var fruits = ["Apple","Mango","pineapple","grapes","guava","Jackfruit","Banana"];
+      document.getElementById("demo").innerHTML = fruits;
+      document.getElementById("demo1").innerHTML = fruits[3];
+
+      document.getElementById("demo2").innerHTML = fruits.length;
+
+      fruits.reverse();
+      document.getElementById("demo3").innerHTML = fruits;
+
+    </script>
+  </body>
+</html>
